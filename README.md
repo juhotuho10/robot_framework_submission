@@ -9,4 +9,4 @@ After downloading Python, you need to install Robot Framework and the Selenium L
 
 You can get the dependencies from terminal with the pip package manager that comes with Python by running:
 
-`pip install robotframework robotframework-seleniumlibrary`
+`pip install robotframework robotframework-seleniumlibrary` or by running `pip install -r requirements.txt` in the project root
