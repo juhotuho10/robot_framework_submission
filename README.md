@@ -3,9 +3,9 @@
 Testsuit for automating the login for the website https://the-internet.herokuapp.com
 
 ### Running the tests
-After installing all the dependencies, you can run the test from the terminal by running the command `robot ./robot_tests/login_demo.robot` in the project root.
+After installing all the dependencies, you can run the test from the terminal by running the command `robot --outputdir results ./robot_tests/login_demo.robot` in the project root.
 
-Robotframework will execute the testcases in the `robot_tests/login_demo.robot` file and give you the result in the terminal as well as provide a detailed report file in the `robot_tests/` folder
+Robotframework will execute the testcases in the `robot_tests/login_demo.robot` file and give you the result in the terminal as well as provide a detailed report file in the `results/` folder
 
 ### Dependencies
 This test uses Firefox as the test browser, so you need Firefox installed from https://www.firefox.com/ 
